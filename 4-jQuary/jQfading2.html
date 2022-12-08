@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    <script type="text/javascript"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <style type="text/css">
+
+
+
+    </style>
+</head>
+<body>
+    <p id="text1">this is some text</p>
+    <button id="toggle">toggel text</button>
+    
+    
+    
+    <script type="text/javascript">
+
+   
+   var textshowing=true;
+   
+        $("#toggle").click(function(){
+            if(textshowing){
+
+                $("#text1").fadeOut(function(){
+                    textshowing=false;
+                });
+            }else {
+                $("#text1").fadeIn(function(){
+                    textshowing=true;
+                });
+            }
+        });
+   
+   
+   
+   </script>  
+  
+       
+    
+</body>
+</html>

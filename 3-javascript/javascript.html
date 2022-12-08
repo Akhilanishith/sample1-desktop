@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<head>
+    
+    
+    
+    <title>Javascript</title>
+    
+    <style type="text/css">
+
+      .circle{
+         width: 200px;
+         height: 200px;
+         border-radius: 50%;
+         float: left;
+         margin: 50px;
+      }
+      #red-circle{
+         background-color: red;
+      }
+      #blue-circle{
+         background-color:blue;
+      }
+      #yellow-circle{
+         background-color:yellow;
+      }
+      
+   </style>
+</head>
+<body>
+
+    <!--
+    <button onclick="alert('HI')">Click Me!</button>
+    <script type="text/javascript">
+       alert("Page is loaded!");
+
+    </script>
+    <hr>
+-->
+
+    <!-- <p id="text">Hello World!</p>
+    <script type="text/javascript">
+        // this is one line comment
+        /* this is a multi-
+        line comment!
+        */
+      document.getElementById("text").innerHTML="Hello good morning!";
+
+    </script> 
+    <hr>-->
+
+    <!-- <p id="text">Hello World!</p>
+    <button id="mybutton">change text</button>
+    
+    <script type="text/javascript">
+         document.getElementById("mybutton").onclick =function() {
+            alert("button clicked");
+         }
+ 
+
+      
+
+    </script>-->
+<!--     
+    <p id="text1">good mornig!</p>
+    <button id="button1">change text</button>
+    <p id="text2">very good morning...</p>
+    <button id="button2">change text2</button>
+    <p id="text3">javascript is...</p>
+    <button id="button3">change text3</button>
+    <p id="text4"></p>
+    <button id="button4">change text4</button>
+    <p id="text5">ALL IS WELL</p>
+    <button id="button5">change text 5</button>
+    <p id="text6">BE POSITIVE</p>
+    <button id="button6">change text 6</button>
+    <p id="text7">this text will disappear</p>
+    <button id="button7">click to disappear</button>
+    
+    
+    
+    <script type="text/javascript">
+      //change text from good morning to good aftrnoon
+         document.getElementById("button1").onclick =function() {
+            document.getElementById("text1").innerHTML="good aftrnoon!";
+            
+         }
+         //same as above...to good evening
+         
+         document.getElementById("button2").onclick =function() {
+            document.getElementById("text2").innerHTML="good evening!";
+            
+         }
+         //modify text
+         document.getElementById("button3").onclick =function() {
+            document.getElementById("text3").innerHTML="I think.."+document.getElementById("text3").innerHTML+"...... awesome!";
+            
+         }
+         //new text appears
+         document.getElementById("button4").onclick =function() {
+            document.getElementById("text4").innerHTML="<h1>hii there!</h1>";
+         }
+         //font size style change
+         document.getElementById("button5").onclick =function() {
+            document.getElementById("text5").style.fontSize="50px";
+         }
+         //coloring
+         document.getElementById("button6").onclick =function() {
+            document.getElementById("text6").style.color="red";
+         }
+         // text disappear
+         document.getElementById("button7").onclick =function() {
+            document.getElementById("text7").style.display="none";
+         }
+     </script>
+     <hr> -->
+     
+     
+         <div class="circle" id="red-circle"></div>
+         <div class="circle" id="blue-circle"></div>
+         <div class="circle" id="yellow-circle"></div>
+         
+         <script>type="text/javascript"
+         document.getElementById("red-circle").onclick=function(){
+            document.getElementById("red-circle").style.display="none";
+
+         }
+         document.getElementById("blue-circle").onclick=function(){
+            document.getElementById("blue-circle").style.display="none";
+
+         }
+         document.getElementById("yellow-circle").onclick=function(){
+            document.getElementById("yellow-circle").style.display="none";
+
+         }
+
+      </script>
+   
+      
+     </head>
+     <body>
+      
+     </body>
+     </html>
+
+
+        
+
+    
+</body>
+</html>

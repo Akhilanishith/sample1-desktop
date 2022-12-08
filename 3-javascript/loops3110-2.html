@@ -1,0 +1,21 @@
+<div id="tweetDiv"></div>
+<script type="text/javascript">
+    var stnamesstring="";
+    var stnames = ["Aashlin","Abhilash","Akhila","Anish"," Ashwin","Divya","Joel James",
+    "Navya","Sahana","Shahanaz","Slevin","Suraksha","Joylin Thomas","Greeshma James","Nitheesh"];
+for (var i = 0; i<stnames.length; i++ )
+{
+// namestring = tweetstring +"<p>" + tweets[i] +"</p>";
+    document.write(i+1+"."+stnames[i] + '<br>');
+
+}
+document.write("<br>")
+// document.getElementById("tweetDiv").innerHTML = tweetstring;
+
+for (var j = stnames.length-1; j>=0; j-- ){
+    document.write(j+1+"."+stnames[j] + '<br>');
+    
+}
+
+
+</script>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <style type="text/css">
+        #resizable{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(42, 165, 77);
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(91, 42, 165);
+        }
+
+      
+
+
+    </style>
+</head>
+<body>
+    <div id="resizable">1</div>
+    <div id="box">2</div>
+
+   
+   
+    
+    
+    <script type="text/javascript">
+
+       $( "#resizable" ).resizable({
+        grid:50,
+        alsoResize:"#box"
+       }); 
+       $("#box").resizable();
+   
+   
+   
+   </script>  
+  
+       
+    
+</body>
+</html>

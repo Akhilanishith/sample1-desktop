@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <style type="text/css">
+       #slider1{
+        
+        background-color: aqua;
+        width: 1000px;
+        height: 20px;
+       }
+       #slider1:hover{text-decoration: blueviolet;
+
+       }
+       #slider1:active{
+        background-color: yellow;
+       }
+       #slider2{
+        
+        background-color:red;
+        width: 1000px;
+        height: 20px;
+        margin-top: 50px;
+       }
+       #slider2:hover{text-decoration: blueviolet;
+
+}
+#slider2:active{
+ background-color: yellow;
+}
+    </style>
+</head>
+<body>
+    <div id="slider1"></div>
+    <div id="slider2"></div>
+   
+    
+    
+    <script type="text/javascript">
+         $( function() {
+    $( "#slider1" ).slider();
+  } );
+  $( function() {
+    $( "#slider2" ).slider();
+  } );
+   </script>  
+  
+       
+    
+</body>
+</html>

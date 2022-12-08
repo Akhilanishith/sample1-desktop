@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <style type="text/css">
+
+      
+
+
+    </style>
+</head>
+<body>
+    <div id="draggable1">Drag me!</div>
+    <div id="draggable2">Drag me!</div>
+    <div style="width:400px; height: 300px;background-color: blueviolet;">
+        <span> stuck in the box</span>
+    </div>
+   
+   
+    
+    
+    <script type="text/javascript">
+
+        // $( "#draggable1" ).draggable({ axis: "y" });
+
+        $( "#draggable2" ).draggable({ axis: "x" });
+        $("span").draggable({containment:"parent"})
+
+        
+
+   
+   
+   
+   
+   </script>  
+  
+       
+    
+</body>
+</html>
